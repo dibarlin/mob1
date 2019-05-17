@@ -26,7 +26,8 @@
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.0",
@@ -319,7 +320,8 @@
               "width": "(@sliderWSize * 1%)"
             },
             "P": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#ffffff"
             }
           },
           "_name": "slider2",
@@ -334,8 +336,8 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": false,
-            "slides__autoplayInterval": 4000,
+            "slides__autoplay": true,
+            "slides__autoplayInterval": "2000",
             "slides__showBullets": true,
             "slides": [
               {
@@ -374,6 +376,108 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/bus-bays-1281x690.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "IMAGE SLIDE",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "&nbsp;BUS BAYS",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/waiting-area-ver2-792x526.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "IMAGE SLIDE",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "WAITING AREA",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/restrooms-ver2-944x530.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "IMAGE SLIDE",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "RESTROOMS",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/prayer-room-ver2-1-1053x576.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "IMAGE SLIDE",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "PRAYER ROOM",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/baby-care-ver2-1030x773.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "IMAGE SLIDE",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "PRAYER ROOM",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/pay-lounge-ver2-2000x1500.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "IMAGE SLIDE",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "PAY LOUNGE",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/push-carts-524x396.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": true,
@@ -384,9 +488,26 @@
                 "customStyle2": "display-7",
                 "customStyle3": "display-4",
                 "title": "IMAGE SLIDE",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "text": "PUSH CARTS",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/security-ver2-1128x684.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "IMAGE SLIDE",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "SECURITY",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
